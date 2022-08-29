@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+		"target": "es2022",
+    "lib": ["es2022"],
+    "module": "esnext",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "lf",
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "baseUrl": "./",
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "paths": {
+			"https://esm.sh/date-fns@2.29.2": ["esm.sh/v92/date-fns@2.29.2/typings.d.ts"],
+			"https://esm.sh/base64-js@1.5.1": ["esm.sh/v92/base64-js@1.5.1/index.d.ts"],
+      "https://esm.sh/*": ["esm.sh/*"]
+    }
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+}
